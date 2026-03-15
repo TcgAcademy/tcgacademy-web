@@ -1,0 +1,346 @@
+/* RESET BÁSICO */
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+
+
+/* CONFIGURACIÓN GENERAL */
+
+body{
+
+font-family: Arial, Helvetica, sans-serif;
+color:white;
+
+/* fondo general */
+
+background-image:url("https://github.com/TcgAcademy/tcgacademy-web/blob/main/fondo_torneo.webp");
+
+background-size:cover;
+background-position:center;
+background-repeat:no-repeat;
+background-attachment:fixed;
+
+}
+
+
+
+/* BANNER SUPERIOR */
+
+.torneo-banner{
+
+width:100%;
+height:300px;
+
+background-image:url("https://github.com/TcgAcademy/tcgacademy-web/blob/main/TCG_Academy_pattern.webp");
+
+background-size:contain;
+background-position:center;
+background-repeat:no-repeat;
+
+margin-top:40px;
+margin-bottom:40px;
+
+}
+
+
+
+/* CONTENEDOR GENERAL */
+
+.container{
+
+max-width:1200px;
+margin:auto;
+padding:20px;
+
+}
+
+
+
+/* SECCIÓN INFORMACIÓN */
+
+.torneo-info{
+
+display:flex;
+flex-wrap:wrap;
+gap:30px;  /* Aqui es la separación entre cuadros*/
+justify-content:center;
+
+margin-bottom:40px;
+
+}
+
+
+
+/* TARJETAS */
+
+.card{
+
+background:rgba(15,18,30,0.85);  /* en el ultimo cuadro se modifica la transparencia del cuadro*/
+
+/* backdrop-filter:blur(6px); */  /* al borrar esto se ve transparente */
+
+border-radius:12px;
+
+padding:25px;
+
+width:280px;
+
+text-align:center;
+
+box-shadow:0px 5px 20px rgba(0,0,0,0.4);
+
+
+}
+
+
+
+.card h2{
+
+margin-bottom:15px;
+
+}
+
+
+
+/* PRECIO */
+
+.precio{
+
+font-size:28px;
+font-weight:bold;
+
+margin:15px 0;
+
+color:#ffd700;
+
+}
+
+
+
+/* BOTONES */
+
+.btn-pago{
+
+background:#ffd700;
+
+border:none;
+
+padding:12px 25px;
+
+border-radius:8px;
+
+font-weight:bold;
+
+cursor:pointer;
+
+transition:0.3s;
+
+}
+
+
+
+.btn-pago:hover{
+
+background:#ffea55;
+
+}
+
+
+
+.btn-link{
+
+display:inline-block;
+
+margin-top:10px;
+
+padding:10px 20px;
+
+background:#3b6cff;
+
+border-radius:8px;
+
+text-decoration:none;
+
+color:white;
+
+transition:0.3s;
+
+}
+
+
+
+.btn-link:hover{
+
+background:#5c83ff;
+
+}
+
+
+
+/* DESCRIPCIÓN */
+
+.descripcion{
+
+max-width:900px;
+
+margin:40px auto;
+
+text-align:center;
+
+background:rgba(15,18,30,0.85);
+
+padding:30px;
+
+border-radius:12px;
+
+}
+
+
+
+/* PREMIOS */
+
+.premios{
+
+margin:60px 0;
+text-align:center;
+
+}
+
+
+
+.premios-titulo{
+
+margin-bottom:30px;
+font-size:28px;
+
+}
+
+
+
+/* CONTENEDOR DE TARJETAS */
+
+.premios-container{
+
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+gap:25px;
+
+}
+
+
+
+/* TARJETAS DE PREMIO */
+
+.premio-card{
+
+background:rgba(15,18,30,0.85);
+
+padding:25px;
+
+border-radius:10px;
+
+width:220px;
+min-height:150px;
+
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+
+text-align:center;
+
+box-shadow:0px 5px 15px rgba(0,0,0,0.4);
+
+}
+
+
+
+/* TITULO PREMIO */
+
+.premio-card h3{
+
+margin-bottom:10px;
+
+font-size:18px;
+
+}
+
+
+
+/* TEXTO PREMIO */
+
+.premio-card p{
+
+font-size:15px;
+line-height:1.4;
+
+}
+
+
+
+/* LISTA DE JUGADORES */
+
+.inscritos{
+
+text-align:center;
+
+margin:40px 0;
+
+}
+
+
+
+.contador{
+
+font-size:18px;
+
+margin-bottom:15px;
+
+}
+
+
+
+#lista-jugadores{
+
+list-style:none;
+
+max-width:300px;
+
+margin:auto;
+
+}
+
+
+
+#lista-jugadores li{
+
+background:rgba(15,18,30,0.85);
+
+margin:5px 0;
+
+padding:10px;
+
+border-radius:6px;
+
+}
+
+
+
+/* FOOTER */
+
+footer{
+
+margin-top:50px;
+
+text-align:center;
+
+padding:25px;
+
+background:rgba(0,0,0,0.7);
+
+}
